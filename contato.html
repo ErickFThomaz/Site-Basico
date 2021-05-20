@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<h1>Entre em Contato</h1>
+<p>Para mais informações sobre água mineral preencha o formulário abaixo:</p>
+<img src="https://www.abinam.com.br/wp-content/uploads/2021/01/Fonte-de-agua-Purissima-2.jpg">
+<form name="form">
+
+    <label for="name">Nome:</label>
+    <br><input type="Text" id="name" name="nome" placeholder="Igor Santos" required/></br>
+
+    <label for="telefone">Telefone:</label>
+    <br><input type="phone" id="telefone" name="tel" placeholder="(xx)xx-xx-xx-xx"/></br>
+
+    <label for="email">Email:</label>
+    <br><input type="email" id="email" name="email" required></br>
+
+   <p> <textarea id="msg" required placeholder="Deixe uma pergunta ou um comentario" name="msg"></textarea></p>
+
+    <p>
+    <tr>
+        <td>
+            <input type="reset" value="Resetar"/>
+            <input type="submit" value="Enviar"/>
+
+        </td>
+    </tr>
+    </p>
+</form>
+</body>
+<input type="button" value="Voltar" onclick="history.back()">
+</html>
